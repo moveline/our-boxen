@@ -82,4 +82,7 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # custome moveline packages
+  include moveline
 }
