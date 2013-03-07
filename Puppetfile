@@ -35,4 +35,6 @@ github "sudo",     "1.0.0"
 # https://github.com/boxen.
 
 github "chrome",   "1.1.0"
+github "flux",     "0.0.1"
 github "hipchat",  "1.0.1"
+github "spotify",  "1.0.0"
