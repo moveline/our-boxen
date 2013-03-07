@@ -7,6 +7,5 @@ class people::cgarvis {
 
   repository { $dotfiles:
     source  => 'cgarvis/dotfiles',
-    require => File[$dotfiles]
   }
 }
