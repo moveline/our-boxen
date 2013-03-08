@@ -33,7 +33,6 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-
 github "chrome",         "1.1.0"
 github "flux",           "0.0.1"
 github "hipchat",        "1.0.1"
@@ -47,3 +46,5 @@ github "skype",          "1.0.1"
 github "tmux",           "1.0.1"
 github "wget",           "1.0.0"
 github "zsh",            "1.0.0"
+
+mod "property_list_key",  "0.1.0",   :github_tarball => "glarizza/puppet-property_list_key"
