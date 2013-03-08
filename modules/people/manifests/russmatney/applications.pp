@@ -1,2 +1,2 @@
-class people::cgarvis::applications {
+class people::russmatney::applications {
 }
