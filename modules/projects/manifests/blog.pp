@@ -1,14 +1,11 @@
 class projects::blog {
-  $home         = "/Users/${::luser}"
-  $projects     = "${home}/projects"
-  $projectDir   = "${projects}/moveline.blog"
+  include projects::config
 
-  file { $projects:
-    ensure  => 'directory'
-  }
+  $home        = "/Users/${::luser}"
+  $projectsdir = "${home}/projects"
 
   boxen::project { 'blog':
-    dir     => $projectDir,
+    dir     => "${projectsdir}/moveline.blog",
     nginx   => 'projects/shared/nginx.jekyll.conf.erb',
     ruby    => '1.9.3',
     source  => 'Moveline/blog'

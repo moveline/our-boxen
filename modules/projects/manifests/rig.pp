@@ -1,16 +1,12 @@
 class projects::rig {
-  include nodejs::0-8
+  include projects::config
 
-  $home     = "/Users/${::luser}"
-  $projects = "${home}/projects"
-  $blog     = "${projects}/moveline.js"
+  $home        = "/Users/${::luser}"
+  $projectsdir = "${home}/projects"
 
-  file { $projects:
-    ensure  => 'directory'
-  }
-
-  repository { $blog:
+  boxen::project { 'rig':
+    dir     => "${projectsdir}/moveline.js",
+    mongodb => true,
     source  => 'Moveline/moveline_node_couch',
-    require => File[$projects]
   }
 }
