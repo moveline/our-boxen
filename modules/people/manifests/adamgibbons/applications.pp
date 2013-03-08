@@ -1,4 +1,4 @@
-class people::cgarvis::applications {
+class people::adamgibbons::applications {
   include flux
   include spotify
 }
