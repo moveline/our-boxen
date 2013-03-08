@@ -49,6 +49,11 @@ GITHUBTARBALL
     iterm2 (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-mongodb
   specs:
     mongodb (1.0.0)
@@ -104,11 +109,6 @@ GITHUBTARBALL
     tmux (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-vim
-  specs:
-    vim (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-wget
   specs:
     wget (1.0.0)
@@ -140,6 +140,7 @@ DEPENDENCIES
   hub (= 1.0.0)
   inifile (= 0.9.0)
   iterm2 (= 1.0.1)
+  macvim (= 1.0.0)
   mongodb (= 1.0.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
@@ -152,7 +153,6 @@ DEPENDENCIES
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
   tmux (= 1.0.1)
-  vim (= 1.0.1)
   wget (= 1.0.0)
   zsh (= 1.0.0)
 
