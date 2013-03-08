@@ -4,4 +4,7 @@ class people::russmatney {
 
   include projects::blog
   include projects::rig
+  include projects::ios
+  include projects::product
+  include projects::node-sendhub
 }
