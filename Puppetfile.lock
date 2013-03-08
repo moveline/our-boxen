@@ -124,6 +124,11 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: dieterdemeyer/puppet-heroku_toolbelt
+  specs:
+    heroku_toolbelt (1.1.1)
+
+GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
   specs:
     property_list_key (0.1.0)
@@ -140,6 +145,7 @@ DEPENDENCIES
   flux (= 0.0.1)
   gcc (= 1.0.0)
   git (= 1.0.0)
+  heroku_toolbelt (= 1.1.1)
   hipchat (= 1.0.1)
   homebrew (= 1.1.0)
   hub (= 1.0.0)

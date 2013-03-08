@@ -47,4 +47,5 @@ github "tmux",           "1.0.1"
 github "wget",           "1.0.0"
 github "zsh",            "1.0.0"
 
-mod "property_list_key",  "0.1.0",   :github_tarball => "glarizza/puppet-property_list_key"
+mod "heroku_toolbelt",   "1.1.1",   :github_tarball => "dieterdemeyer/puppet-heroku_toolbelt"
+mod "property_list_key", "0.1.0",   :github_tarball => "glarizza/puppet-property_list_key"
