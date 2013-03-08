@@ -5,5 +5,6 @@ class people::cgarvis {
   # Projects
   include projects::blog
   include projects::node-sendhub
+  include projects::product
   include projects::rig
 }
