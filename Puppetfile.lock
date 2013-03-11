@@ -84,6 +84,11 @@ GITHUBTARBALL
     osx (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-qt
+  specs:
+    qt (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.1.0)
@@ -122,6 +127,11 @@ GITHUBTARBALL
   remote: boxen/puppet-wget
   specs:
     wget (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
@@ -163,6 +173,7 @@ DEPENDENCIES
   nvm (= 1.0.0)
   osx (= 1.0.0)
   property_list_key (= 0.1.0)
+  qt (= 1.0.0)
   ruby (= 3.1.0)
   skype (= 1.0.1)
   sparrow (= 1.0.0)
@@ -172,5 +183,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   tmux (= 1.0.1)
   wget (= 1.0.0)
+  xquartz (= 1.0.0)
   zsh (= 1.0.0)
 
