@@ -46,5 +46,7 @@ github "skype",          "1.0.1"
 github "tmux",           "1.0.1"
 github "wget",           "1.0.0"
 github "zsh",            "1.0.0"
+github "dropbox",        "1.0.0"
+github "sparrow",        "1.0.0"
 
 mod "property_list_key",  "0.1.0",   :github_tarball => "glarizza/puppet-property_list_key"

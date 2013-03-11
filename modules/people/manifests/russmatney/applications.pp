@@ -3,4 +3,6 @@ class people::russmatney::applications {
   include flux
   include sublime_text_2
   include spotify
+  include sparrow
+  include dropbox
 }
