@@ -1,4 +1,5 @@
 class people::russmatney {
+  include people::russmatney::preferences
   include people::russmatney::applications
   include people::russmatney::dotfiles
 
