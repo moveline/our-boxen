@@ -1,4 +1,4 @@
-class people::russmatney::preferences {
+class people::adamgibbons::preferences {
   $my_homedir = "/Users/${::luser}"
 
   # NOTE: Dock prefs only take effect when you restart the dock
