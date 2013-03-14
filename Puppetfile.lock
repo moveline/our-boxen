@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.0.0)
+    dropbox (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-flux
@@ -31,17 +31,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (1.0.0)
+    git (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hipchat
   specs:
-    hipchat (1.0.1)
+    hipchat (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.1.0)
+    homebrew (1.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -162,13 +162,13 @@ DEPENDENCIES
   boxen (= 1.2.0)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
-  dropbox (= 1.0.0)
+  dropbox (= 1.1.0)
   flux (= 0.0.1)
   gcc (= 1.0.0)
-  git (= 1.0.0)
+  git (= 1.1.0)
   heroku_toolbelt (= 1.1.1)
-  hipchat (= 1.0.1)
-  homebrew (= 1.1.0)
+  hipchat (= 1.0.2)
+  homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
   iterm2 (= 1.0.1)
