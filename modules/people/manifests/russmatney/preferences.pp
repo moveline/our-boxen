@@ -11,11 +11,11 @@ class people::russmatney::preferences {
     notify     => Exec['Restart the Dock'],
   }
 
-  property_list_key { 'Align the Dock Left':
+  property_list_key { 'Align the Dock Bottom':
     ensure     => present,
     path       => "${my_homedir}/Library/Preferences/com.apple.dock.plist",
     key        => 'orientation',
-    value      => 'left',
+    value      => 'bottom',
     notify     => Exec['Restart the Dock'],
   }
 
@@ -28,7 +28,7 @@ class people::russmatney::preferences {
     ensure  => file,
     require => [
                  Property_list_key['Hide the dock'],
-                 Property_list_key['Align the Dock Left'],
+                 Property_list_key['Align the Dock Bottom'],
                ],
     path    => "${my_homedir}/Library/Preferences/com.apple.dock.plist",
     mode    => '0600',
