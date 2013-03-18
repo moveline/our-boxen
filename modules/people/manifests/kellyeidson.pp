@@ -5,4 +5,5 @@ class people::kellyeidson {
   # Projects
   include projects::blog
   include projects::product
+  include projects::rig
 }
