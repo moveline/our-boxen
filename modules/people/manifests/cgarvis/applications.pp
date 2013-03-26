@@ -3,4 +3,5 @@ class people::cgarvis::applications {
   include flux
   include macvim
   include spotify
+  include sublime_text_2
 }
