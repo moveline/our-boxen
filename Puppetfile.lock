@@ -56,7 +56,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
-    iterm2 (1.0.1)
+    iterm2 (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-macvim
@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.1)
+    skype (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-sparrow
@@ -177,7 +177,7 @@ DEPENDENCIES
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
-  iterm2 (= 1.0.1)
+  iterm2 (= 1.0.2)
   macvim (= 1.0.0)
   mongodb (= 1.0.0)
   nginx (= 1.1.0)
@@ -187,7 +187,7 @@ DEPENDENCIES
   property_list_key (= 0.1.0)
   qt (= 1.0.0)
   ruby (= 3.3.1)
-  skype (= 1.0.1)
+  skype (= 1.0.2)
   sparrow (= 1.0.0)
   spotify (= 1.0.0)
   stdlib (= 3.0.0)
