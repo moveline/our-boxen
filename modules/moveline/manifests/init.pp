@@ -6,4 +6,8 @@ class moveline {
   include tmux
   include wget
   include zsh
+
+  class { 'ruby::global':
+    version => '2.0.0'
+  }
 }
