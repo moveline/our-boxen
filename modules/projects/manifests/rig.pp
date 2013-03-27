@@ -1,5 +1,8 @@
 class projects::rig {
   include projects::config
+
+  include chrome
+  include firefox
   include qt
 
   $home        = "/Users/${::luser}"
