@@ -3,6 +3,7 @@ class moveline {
   include heroku_toolbelt
   include hipchat
   include iterm2::dev
+  include sublime_text_2
   include tmux
   include wget
   include zsh
