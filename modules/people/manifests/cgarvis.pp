@@ -7,5 +7,6 @@ class people::cgarvis {
   include projects::blog
   include projects::node-sendhub
   include projects::product
+  include projects::shop
   include projects::rig
 }

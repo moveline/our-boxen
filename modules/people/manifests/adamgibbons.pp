@@ -6,5 +6,6 @@ class people::adamgibbons {
   # Projects
   include projects::blog
   include projects::product
+  include projects::shop
   include projects::rig
 }
