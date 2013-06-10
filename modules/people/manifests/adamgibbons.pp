@@ -9,4 +9,5 @@ class people::adamgibbons {
   include projects::node-sendhub
   include projects::shop
   include projects::rig
+  include projects::rig-api
 }
