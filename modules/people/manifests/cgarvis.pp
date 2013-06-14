@@ -8,5 +8,6 @@ class people::cgarvis {
   include projects::node-sendhub
   include projects::product
   include projects::shop
-  include projects::rig
+  include projects::tractor
+  include projects::trailer
 }
