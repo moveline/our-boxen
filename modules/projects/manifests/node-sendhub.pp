@@ -6,6 +6,6 @@ class projects::node-sendhub {
 
   boxen::project { 'node-sendhub':
     dir         => "${projectsdir}/node-sendhub",
-    source      => 'Moveline/node-sendhub'
+    source      => 'moveline/node-sendhub'
   }
 }

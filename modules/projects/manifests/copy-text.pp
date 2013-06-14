@@ -6,6 +6,6 @@ class projects::copy-text {
 
   boxen::project { 'copy-text':
     dir     => "${projectsdir}/moveline.copy",
-    source  => 'Moveline/Copy'
+    source  => 'moveline/Copy'
   }
 }

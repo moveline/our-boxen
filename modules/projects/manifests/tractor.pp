@@ -1,4 +1,4 @@
-class projects::rig-api {
+class projects::tractor {
   include projects::config
 
   include chrome
@@ -8,9 +8,9 @@ class projects::rig-api {
   $projectsdir = "${home}/projects"
 
   boxen::project { 'rig-api':
-    dir     => "${projectsdir}/moveline.rig",
+    dir     => "${projectsdir}/moveline.tractor",
     mongodb => true,
     nodejs  => '0.10',
-    source  => 'Moveline/rig',
+    source  => 'moveline/tractor',
   }
 }

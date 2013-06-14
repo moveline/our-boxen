@@ -8,6 +8,6 @@ class projects::blog {
     dir     => "${projectsdir}/moveline.blog",
     nginx   => 'projects/shared/nginx.jekyll.conf.erb',
     ruby    => '1.9.3',
-    source  => 'Moveline/blog'
+    source  => 'moveline/blog'
   }
 }
