@@ -3,6 +3,9 @@ class people::pmn {
   include people::pmn::applications
 
   # Projects
+  include projects::blog
+  include projects::product
   include projects::shop
-  include projects::rig
+  include projects::tractor
+  include projects::trailer
 }
