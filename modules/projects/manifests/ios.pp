@@ -6,6 +6,6 @@ class projects::ios {
 
   boxen::project { 'ios':
     dir     => "${projectsdir}/ios",
-    source  => 'Moveline/ios',
+    source  => 'moveline/ios',
   }
 }
