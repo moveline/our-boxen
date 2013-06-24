@@ -8,6 +8,6 @@ class people::adamgibbons {
   include projects::product
   include projects::node-sendhub
   include projects::shop
-  include projects::rig
-  include projects::rig-api
+  include projects::trailer
+  include projects::tractor
 }
