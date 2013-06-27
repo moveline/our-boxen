@@ -39,7 +39,10 @@ Repository {
   extra    => [
     '--recurse-submodules'
   ],
-  require  => Class['git']
+  require  => Class['git'],
+  config   => {
+    'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
+  }
 }
 
 Service {
@@ -54,7 +57,6 @@ node default {
   include git
   include hub
   include nginx
-  include nvm
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -62,8 +64,8 @@ node default {
   }
 
   # node versions
-  include nodejs::0-8
-  include nodejs::0-10
+  include nodejs::v0_8_8
+  include nodejs::v0_10
 
   # default ruby versions
   include ruby::1_9_3
@@ -83,6 +85,6 @@ node default {
     target => $boxen::config::repodir
   }
 
-  # custome moveline packages
+  # custom moveline packages
   include moveline
 }

@@ -13,22 +13,22 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "1.2.0"
+github "boxen", "2.3.4"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
 github "dnsmasq",  "1.0.0"
-github "gcc",      "1.0.0"
-github "git",      "1.1.0"
+github "gcc",      "2.0.0"
+github "git",      "1.2.4"
 github "homebrew", "1.1.2"
 github "hub",      "1.0.0"
 github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
-github "nginx",    "1.1.0"
-github "nodejs",   "1.1.0"
+github "nginx",    "1.4.2"
+github "nodejs",   "3.2.4"
 github "nvm",      "1.0.0"
-github "ruby",     "3.3.1"
-github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
+github "ruby",     "6.0.0"
+github "stdlib",   "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
@@ -43,6 +43,7 @@ github "macvim",         "1.0.0"
 github "mongodb",        "1.0.4"
 github "osx",            "1.0.0"
 github "qt",             "1.0.0"
+github "repository",     "2.2.0"
 github "sparrow",        "1.0.0"
 github "spotify",        "1.0.0"
 github "sublime_text_2", "1.1.0"

@@ -10,7 +10,7 @@ class projects::tractor {
   boxen::project { 'rig-api':
     dir     => "${projectsdir}/moveline.tractor",
     mongodb => true,
-    nodejs  => '0.10',
+    nodejs  => 'v0.10',
     source  => 'moveline/tractor',
   }
 }

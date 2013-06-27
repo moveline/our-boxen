@@ -9,7 +9,7 @@ class projects::shop {
 
   boxen::project { 'shop':
     dir     => "${projectsdir}/moveline.shop",
-    nodejs  => '0.10',
+    nodejs  => 'v0.10',
     source  => 'moveline/shop',
   }
 }

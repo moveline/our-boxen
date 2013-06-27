@@ -1,6 +1,8 @@
 class people::cgarvis::preferences {
   $my_homedir = "/Users/${::luser}"
 
+  class { 'nodejs::global': version => 'v0.10.5' }
+
   # NOTE: Dock prefs only take effect when you restart the dock
   property_list_key { 'Hide the dock':
     ensure     => present,

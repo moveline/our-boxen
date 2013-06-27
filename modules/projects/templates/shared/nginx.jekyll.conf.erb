@@ -1,14 +1,14 @@
 server {
-  access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= name %>.access.log main;
+  access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.access.log main;
   listen 80;
-  root <%= dir %>/_site;
-  server_name <%= server_name %>;
+  root <%= @dir %>/_site;
+  server_name <%= @server_name %>;
   index index.html;
 
   error_page 500 502 503 504 /50x.html;
 
   if ($host ~* "www") {
-    rewrite ^(.*)$ http://<%= server_name %>$1 permanent;
+    rewrite ^(.*)$ http://<%= @server_name %>$1 permanent;
     break;
   }
 
