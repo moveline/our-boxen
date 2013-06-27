@@ -18,3 +18,14 @@ server {
     proxy_pass          http://127.0.0.1:9000;
   }
 }
+
+server {
+  access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.access.log main;
+  listen 80;
+  server_name api.<%= @server_name %>;
+  index index.html;
+
+  location / {
+    proxy_pass          http://127.0.0.1:8000;
+  }
+}
