@@ -6,4 +6,6 @@ class people::kellyeidson {
   include projects::blog
   include projects::product
   include projects::rig
+  include projects::ios
+  include projects::shop
 }
