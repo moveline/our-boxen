@@ -1,7 +1,7 @@
-class people::russmatney {
-  include people::russmatney::preferences
-  include people::russmatney::applications
-  include people::russmatney::dotfiles
+class people::frederickcook {
+  include people::frederickcook::preferences
+  include people::frederickcook::applications
+  include people::frederickcook::dotfiles
 
   include projects::blog
   include projects::ios
