@@ -76,7 +76,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.2.4)
+    nodejs (3.2.10)
 
 GITHUBTARBALL
   remote: boxen/puppet-nvm
@@ -186,7 +186,7 @@ DEPENDENCIES
   macvim (= 1.0.0)
   mongodb (= 1.0.4)
   nginx (= 1.4.2)
-  nodejs (= 3.2.4)
+  nodejs (= 3.2.10)
   nvm (= 1.0.0)
   osx (= 1.0.0)
   property_list_key (= 0.1.0)
