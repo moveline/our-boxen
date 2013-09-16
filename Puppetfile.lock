@@ -39,6 +39,11 @@ GITHUBTARBALL
     git (1.2.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-go
+  specs:
+    go (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-hipchat
   specs:
     hipchat (1.0.2)
@@ -177,6 +182,7 @@ DEPENDENCIES
   flux (= 0.0.1)
   gcc (= 2.0.0)
   git (= 1.2.4)
+  go (= 1.0.1)
   heroku_toolbelt (= 1.1.1)
   hipchat (= 1.0.2)
   homebrew (= 1.1.2)
