@@ -10,4 +10,5 @@ class people::russmatney {
   include projects::trailer
   include projects::tractor
   include projects::shop
+  include projects::speedometer
 }
