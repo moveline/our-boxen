@@ -7,7 +7,7 @@ class projects::speedometer {
   $projectsdir = "${home}/projects"
 
   boxen::project { 'speedometer':
-	  dir      => "${projectsdir}/go-projects/src/moveline.speedometer",
+	  dir      => "${projectsdir}/go-projects/src/speedometer",
     source   => "moveline/speedometer"
 	}	
 }
