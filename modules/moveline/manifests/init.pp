@@ -9,7 +9,7 @@ class moveline {
   include zsh
   include go
 
-  go::local { '$home/projects/go-projects':
+  go::local { "${boxen::config::home}/projects/go-projects":
     version => '1.1.1'
   }
 
