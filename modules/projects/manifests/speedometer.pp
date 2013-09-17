@@ -7,6 +7,10 @@ class projects::speedometer {
   $home        = "/Users/${::luser}"
   $projectsdir = "${home}/projects"
 
+  go::local { '${projectsdir}/go-projects':
+    version => '1.1.1'
+  }
+
   boxen::project { 'speedometer':
     dir      => "${projectsdir}/go-projects/src/speedometer",
     source   => "moveline/speedometer"
