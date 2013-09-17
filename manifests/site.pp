@@ -15,12 +15,14 @@ Exec {
     '/usr/bin',
     '/bin',
     '/usr/sbin',
-    '/sbin'
+    '/sbin',
+    'GOPATH'
   ],
 
   environment => [
     "HOMEBREW_CACHE=${homebrew::config::cachedir}",
     "HOME=/Users/${::luser}"
+    "GOPATH=/Users/${::lusers}/projects/go-projects"
   ]
 }
 
