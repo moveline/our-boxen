@@ -21,7 +21,7 @@ Exec {
 
   environment => [
     "HOMEBREW_CACHE=${homebrew::config::cachedir}",
-    "HOME=/Users/${::luser}"
+    "HOME=/Users/${::luser}",
     "GOPATH=/Users/${::lusers}/projects/go-projects"
   ]
 }
