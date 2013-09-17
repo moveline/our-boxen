@@ -1,7 +1,7 @@
 class projects::speedometer {
   include projects::config
 
-  go::version { '1.0.1': }
+  go::version { '1.1.1': }
   include go::1_1
 
   $home        = "/Users/${::luser}"
