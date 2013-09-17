@@ -7,7 +7,7 @@ class projects::speedometer {
   $home        = "/Users/${::luser}"
   $projectsdir = "${home}/projects"
 
-  go::local { '':
+  go::local { '/opt/boxen/goenv/shims/go/':
     version => '1.1.1'
   }
 
