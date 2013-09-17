@@ -7,7 +7,7 @@ class projects::speedometer {
   $home        = "/Users/${::luser}"
   $projectsdir = "${home}/projects"
 
-  go::local { '${projectsdir}/go-projects':
+  go::local { '':
     version => '1.1.1'
   }
 
