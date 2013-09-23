@@ -5,10 +5,8 @@ class projects::tracker {
   $home        = "/Users/${::luser}"
   $projectsdir = "${home}/projects"
 
-  package {
-    [
-        'hq'
-    ]:
+  package { 'hq':
+    ensure => installed
   }
 
   boxen::project { 'tracker':
