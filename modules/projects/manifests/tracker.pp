@@ -9,6 +9,10 @@ class projects::tracker {
     ensure   => installed,
     provider => homebrew
   }
+  package { 'bazaar':
+    ensure   => installed,
+    provider => homebrew
+  }
   boxen::project { 'tracker':
     dir      => "${projectsdir}/go-projects/src/tracker",
     source   => "moveline/tracker",
