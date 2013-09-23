@@ -10,7 +10,7 @@ class projects::tracker {
     provider => homebrew
   }
   boxen::project { 'tracker':
-    dir      => "${projectsdir}/go-projects/src/tracker",
+    dir      => "${projectsdir}/go-projects/src/github.com/moveline/tracker",
     source   => "moveline/tracker",
   }
 }
