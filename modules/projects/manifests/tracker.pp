@@ -7,7 +7,7 @@ class projects::tracker {
 
   boxen::project { 'tracker':
     dir      => "${projectsdir}/go-projects/src/tracker",
-    source   => "moveline/tracker"
+    source   => "moveline/tracker",
     require => Package['hg']
   }
 }
