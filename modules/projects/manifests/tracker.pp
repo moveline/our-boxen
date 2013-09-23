@@ -5,6 +5,12 @@ class projects::tracker {
   $home        = "/Users/${::luser}"
   $projectsdir = "${home}/projects"
 
+  package {
+    [
+        'hq'
+    ]:
+  }
+
   boxen::project { 'tracker':
     dir      => "${projectsdir}/go-projects/src/tracker",
     source   => "moveline/tracker"
