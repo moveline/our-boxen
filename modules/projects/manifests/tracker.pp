@@ -5,11 +5,6 @@ class projects::tracker {
   $home        = "/Users/${::luser}"
   $projectsdir = "${home}/projects"
 
-  package { 'hg':
-    ensure   => installed,
-    provider => homebrew
-  }
-
   boxen::project { 'tracker':
     dir      => "${projectsdir}/go-projects/src/tracker",
     source   => "moveline/tracker",
