@@ -5,10 +5,6 @@ class projects::tracker {
   $home        = "/Users/${::luser}"
   $projectsdir = "${home}/projects"
 
-  package { 'hg':
-    ensure   => installed,
-    provider => homebrew
-  }
   package { 'bazaar':
     ensure   => installed,
     provider => homebrew
