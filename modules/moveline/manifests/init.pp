@@ -12,8 +12,8 @@ class moveline {
     version => '2.0.0'
   }
 
-  package { 'hg':
-    ensure   => installed,
-    provider => homebrew
+  Package {
+    provider => homebrew,
+    require  => Class['hg']
   }
 }
