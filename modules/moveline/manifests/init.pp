@@ -11,9 +11,4 @@ class moveline {
   class { 'ruby::global':
     version => '2.0.0'
   }
-
-  Package {
-    provider => homebrew,
-    require  => Class['hg']
-  }
 }
