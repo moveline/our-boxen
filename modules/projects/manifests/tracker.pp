@@ -6,7 +6,8 @@ class projects::tracker {
   $projectsdir = "${home}/projects"
 
   package { 'hq':
-    ensure => installed
+    ensure => installed,
+    provider => homebrew
   }
 
   boxen::project { 'tracker':
