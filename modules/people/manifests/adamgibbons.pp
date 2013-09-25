@@ -11,4 +11,5 @@ class people::adamgibbons {
   include projects::speedometer
   include projects::trailer
   include projects::tractor
+  include projects::logbook
 }
