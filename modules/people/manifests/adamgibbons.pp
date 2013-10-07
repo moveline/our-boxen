@@ -8,6 +8,7 @@ class people::adamgibbons {
   include projects::product
   include projects::node-sendhub
   include projects::shop
+  include projects::roadmap
   include projects::speedometer
   include projects::trailer
   include projects::tractor

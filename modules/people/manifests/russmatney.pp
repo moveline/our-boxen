@@ -10,6 +10,7 @@ class people::russmatney {
   include projects::trailer
   include projects::tractor
   include projects::shop
+  include projects::roadmap
   include projects::speedometer
   include projects::logbook
 }
