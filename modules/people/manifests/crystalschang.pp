@@ -1,4 +1,4 @@
-class people::crystalchang {
+class people::crystalschang {
   # Projects
   include projects::blog
   include projects::product
