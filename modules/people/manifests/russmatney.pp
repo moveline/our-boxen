@@ -7,6 +7,7 @@ class people::russmatney {
   include projects::ios
   include projects::node-sendhub
   include projects::product
+  include projects::proxy
   include projects::trailer
   include projects::tractor
   include projects::shop
