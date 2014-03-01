@@ -51,7 +51,7 @@ github "sublime_text_2", "1.1.0"
 github "skype",          "1.0.2"
 github "tmux",           "1.0.1"
 github "wget",           "1.0.0"
-github "xquartz",        "1.0.0"
+github "xquartz",        "1.1.1"
 github "zsh",            "1.0.0"
 
 mod "heroku_toolbelt",   "1.1.1",   :github_tarball => "dieterdemeyer/puppet-heroku_toolbelt"
