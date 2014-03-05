@@ -146,7 +146,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.0.0)
+    xquartz (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
@@ -207,6 +207,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   tmux (= 1.0.1)
   wget (= 1.0.0)
-  xquartz (= 1.0.0)
+  xquartz (= 1.1.1)
   zsh (= 1.0.0)
 
